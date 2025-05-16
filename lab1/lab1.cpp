@@ -38,8 +38,8 @@ int main()
     al_draw_line(531, 540, 560, 540, al_map_rgb(0, 0, 0), 3);
 
     al_flip_display();
-    al_rest(3);
-    //al_destroy_display(display);
+    al_rest(20);
+    al_destroy_display(display);
   // al_draw_triangle(float x1, float y1, float x2, float y2, float x3, float y3, ALLEGRO_COLOR color, float thickness) ·
   //  al_draw_filled_triangle(float x1, float y1, float x2, float y2, float x3, float y3, ALLEGRO_COLOR color) ·
   //  al_draw_rectangle(float x1, float y1, float x2, float y2, ALLEGRO_COLOR color, float thickness) ·
