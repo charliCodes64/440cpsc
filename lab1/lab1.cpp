@@ -27,7 +27,7 @@ int main()
     al_draw_filled_ellipse(400, 600, 100, 35, al_map_rgb(255, 255, 255));
     al_draw_filled_ellipse(360, 650, 12, 35, al_map_rgb(255, 255, 255));
     al_draw_filled_ellipse(340, 650, 12, 35, al_map_rgb(255, 255, 255));
-    al_draw_filled_ellipse(450, 650, 12, 35, al_map_rgb(255, 255, 255));
+    al_draw_filled_ellipse(450, 650, 12, 35, al_map_rgb(255, 255, 255)); 
     al_draw_filled_ellipse(470, 650, 12, 35, al_map_rgb(255, 255, 255));
     al_draw_filled_rectangle(500, 530, 480, 600, al_map_rgb(255, 255, 255));
     al_draw_filled_ellipse(510, 540, 45, 18, al_map_rgb(255, 255, 255));
@@ -39,7 +39,7 @@ int main()
 
     al_flip_display();
     al_rest(20);
-    al_destroy_display(display);
+    al_destroy_display(display);   
   // al_draw_triangle(float x1, float y1, float x2, float y2, float x3, float y3, ALLEGRO_COLOR color, float thickness) ·
   //  al_draw_filled_triangle(float x1, float y1, float x2, float y2, float x3, float y3, ALLEGRO_COLOR color) ·
   //  al_draw_rectangle(float x1, float y1, float x2, float y2, ALLEGRO_COLOR color, float thickness) ·
@@ -49,4 +49,5 @@ int main()
  //   al_draw_circle(float cx, float cy, float r, ALLEGRO_COLOR color, float thickness)·
  //   al_draw_filled_circle(float cx, float cy, float r, ALLEGRO_COLOR color)
     //std::cout << "Hello World!\n";
+    //testing git UN
 }
